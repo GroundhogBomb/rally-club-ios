@@ -1,0 +1,11 @@
+.DS_Store
+build/
+xcuserdata/
+*.xcuserstate
+Config/Supabase.xcconfig
+DerivedData/
+.env
+.env.*
+*.p8
+*.p12
+*.mobileprovision

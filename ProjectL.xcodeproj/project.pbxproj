@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+        A80000000000000000000001 /* VersionGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80000000000000000000001 /* VersionGate.swift */; };
+        A50000000000000000000001 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001; };
+        A30000000000000000000001 = {isa = PBXBuildFile; fileRef = B30000000000000000000001; };
+		A10000000000000000000001 /* ProjectL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* ProjectL.swift */; };
+		A10000000000000000000002 /* Court.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Court.swift */; };
+		A10000000000000000000004 /* GameRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* GameRequest.swift */; };
+		A10000000000000000000005 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* AppLanguage.swift */; };
+		A10000000000000000000006 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* SampleData.swift */; };
+		A10000000000000000000007 /* AppPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* AppPalette.swift */; };
+		A10000000000000000000008 /* WarmCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* WarmCard.swift */; };
+		A10000000000000000000009 /* PageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* PageHeader.swift */; };
+		A1000000000000000000000A /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* RootTabView.swift */; };
+		A1000000000000000000000B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* WelcomeView.swift */; };
+		A1000000000000000000000C /* CourtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* CourtView.swift */; };
+		A1000000000000000000000D /* ClubFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* ClubFeedView.swift */; };
+		A1000000000000000000000E /* FeedPostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* FeedPostDetailView.swift */; };
+		A1000000000000000000000F /* GameRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* GameRequestView.swift */; };
+		A10000000000000000000010 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* ProfileView.swift */; };
+		A10000000000000000000011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* Assets.xcassets */; };
+		A10000000000000000000012 /* NearbyCourt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* NearbyCourt.swift */; };
+		A10000000000000000000013 /* CourtDiscoveryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* CourtDiscoveryModel.swift */; };
+		A10000000000000000000014 /* CourtMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* CourtMapView.swift */; };
+		A10000000000000000000015 /* CourtDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* CourtDetailView.swift */; };
+		A10000000000000000000016 /* CommunityUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* CommunityUser.swift */; };
+		A10000000000000000000017 /* FeedPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000018 /* FeedPost.swift */; };
+		A10000000000000000000018 /* PostComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000019 /* PostComment.swift */; };
+		A10000000000000000000019 /* ClubFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001A /* ClubFeedStore.swift */; };
+		A1000000000000000000001A /* FeedMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001B /* FeedMediaView.swift */; };
+		A1000000000000000000001B /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001C /* CreatePostView.swift */; };
+		A1000000000000000000001C /* GameRequestStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001D /* GameRequestStore.swift */; };
+		A1000000000000000000001D /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001E /* UserProfileView.swift */; };
+		A1000000000000000000001E /* CreateGameRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001F /* CreateGameRequestView.swift */; };
+		A1000000000000000000001F /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000020 /* ProfileStore.swift */; };
+		A10000000000000000000020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000021 /* LaunchScreen.storyboard */; };
+		A10000000000000000000021 /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000022 /* AppSession.swift */; };
+		A10000000000000000000022 /* AppDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000023 /* AppDataRepository.swift */; };
+		A10000000000000000000023 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000024 /* AuthenticationView.swift */; };
+		A10000000000000000000024 /* SupabaseAppDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000025 /* SupabaseAppDataRepository.swift */; };
+		A10000000000000000000025 /* SessionReminderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000029 /* SessionReminderStore.swift */; };
+		A10000000000000000000026 /* SessionReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000002A /* SessionReminderView.swift */; };
+		A10000000000000000000027 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000002B /* InfoPlist.xcstrings */; };
+		A20000000000000000000001 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = E20000000000000000000002 /* Supabase */; };
+		A20000000000000000000002 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = E20000000000000000000004 /* GRDB */; };
+		A10000000000000000000028 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000002C /* Localizable.xcstrings */; };
+		DE9F9A408DA3543B831D7A5A /* CourtMapCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351BBB9045F5B76BFF5670A /* CourtMapCameraTests.swift */; };
+		B6286DBEE5D4527CA055C721 /* CourtMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A461C941FDA567EA97634FD /* CourtMapUITests.swift */; };
+		FE8CD6B994EA5C7F9F74148C /* GIFAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA1B38E59A540395E57697 /* GIFAnimationTests.swift */; };
+		017AD1C031585CE4BD3FD078 /* RepositoryChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED892B0C448658FABC6676AB /* RepositoryChangeTests.swift */; };
+		904CD1D70FE05EC7A09AD913 /* SignedInStoresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACAE33966852B187383FD4 /* SignedInStoresTests.swift */; };
+		C3412CF7C73B5A289194E213 /* MatchMomentPendingStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C40A0EC9EB51B599EA2A44 /* MatchMomentPendingStorageTests.swift */; };
+		117E786E3916512A86292FA2 /* FeedGIFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82551D7C7E85AE9BD27B53B /* FeedGIFUITests.swift */; };
+		E44960C8C0BE54449407DFED /* DemoPostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BCFFC0FC2452F08C83A677 /* DemoPostUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        B80000000000000000000001 /* VersionGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionGate.swift; sourceTree = "<group>"; };
+        B20000000000000000000001 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+        B30000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = RallyBallMotion.metal; sourceTree = "<group>"; };
+		B10000000000000000000001 /* ProjectL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectL.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* Court.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Court.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* GameRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRequest.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* AppPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPalette.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* WarmCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmCard.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* PageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageHeader.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* CourtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* ClubFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubFeedView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* FeedPostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostDetailView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* GameRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRequestView.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000012 /* ProjectL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000013 /* NearbyCourt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCourt.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* CourtDiscoveryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtDiscoveryModel.swift; sourceTree = "<group>"; };
+		B10000000000000000000015 /* CourtMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtMapView.swift; sourceTree = "<group>"; };
+		B10000000000000000000016 /* CourtDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtDetailView.swift; sourceTree = "<group>"; };
+		B10000000000000000000017 /* CommunityUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityUser.swift; sourceTree = "<group>"; };
+		B10000000000000000000018 /* FeedPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPost.swift; sourceTree = "<group>"; };
+		B10000000000000000000019 /* PostComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComment.swift; sourceTree = "<group>"; };
+		B1000000000000000000001A /* ClubFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubFeedStore.swift; sourceTree = "<group>"; };
+		B1000000000000000000001B /* FeedMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedMediaView.swift; sourceTree = "<group>"; };
+		B1000000000000000000001C /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		B1000000000000000000001D /* GameRequestStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRequestStore.swift; sourceTree = "<group>"; };
+		B1000000000000000000001E /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		B1000000000000000000001F /* CreateGameRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameRequestView.swift; sourceTree = "<group>"; };
+		B10000000000000000000020 /* ProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStore.swift; sourceTree = "<group>"; };
+		B10000000000000000000021 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B10000000000000000000022 /* AppSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSession.swift; sourceTree = "<group>"; };
+		B10000000000000000000023 /* AppDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataRepository.swift; sourceTree = "<group>"; };
+		B10000000000000000000024 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		B10000000000000000000025 /* SupabaseAppDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseAppDataRepository.swift; sourceTree = "<group>"; };
+		B10000000000000000000026 /* ProjectL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectL.entitlements; sourceTree = "<group>"; };
+		B10000000000000000000027 /* ProjectL.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/ProjectL.xcconfig; sourceTree = SOURCE_ROOT; };
+		B10000000000000000000028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000029 /* SessionReminderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionReminderStore.swift; sourceTree = "<group>"; };
+		B1000000000000000000002A /* SessionReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionReminderView.swift; sourceTree = "<group>"; };
+		B1000000000000000000002B /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		B1000000000000000000002C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E351BBB9045F5B76BFF5670A /* CourtMapCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtMapCameraTests.swift; sourceTree = "<group>"; };
+		DE3137337A8E5CFD8FE10FBC /* ProjectLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A461C941FDA567EA97634FD /* CourtMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtMapUITests.swift; sourceTree = "<group>"; };
+		EBCD36C16F3E52029DEAAFA8 /* ProjectLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBA1B38E59A540395E57697 /* GIFAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFAnimationTests.swift; sourceTree = "<group>"; };
+		ED892B0C448658FABC6676AB /* RepositoryChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryChangeTests.swift; sourceTree = "<group>"; };
+		75ACAE33966852B187383FD4 /* SignedInStoresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedInStoresTests.swift; sourceTree = "<group>"; };
+		42C40A0EC9EB51B599EA2A44 /* MatchMomentPendingStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMomentPendingStorageTests.swift; sourceTree = "<group>"; };
+		D82551D7C7E85AE9BD27B53B /* FeedGIFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedGIFUITests.swift; sourceTree = "<group>"; };
+		A7BCFFC0FC2452F08C83A677 /* DemoPostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPostUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20000000000000000000001 /* Supabase in Frameworks */,
+				A20000000000000000000002 /* GRDB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B7C52B5C4E5C46861B02DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F5481092425A8D9F582422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000002 /* ProjectL */,
+				B10000000000000000000027 /* ProjectL.xcconfig */,
+				B7B81A748167501EA4AB5595 /* ProjectLTests */,
+				A755385D3B625E2C963CB9A3 /* ProjectLUITests */,
+				D10000000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* ProjectL */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000003 /* App */,
+				D10000000000000000000004 /* Views */,
+				D10000000000000000000005 /* Models */,
+				D10000000000000000000006 /* Components */,
+				B10000000000000000000011 /* Assets.xcassets */,
+				B10000000000000000000021 /* LaunchScreen.storyboard */,
+				B10000000000000000000026 /* ProjectL.entitlements */,
+				B10000000000000000000028 /* Info.plist */,
+                B20000000000000000000001 /* PrivacyInfo.xcprivacy */,
+				B1000000000000000000002B /* InfoPlist.xcstrings */,
+				B1000000000000000000002C /* Localizable.xcstrings */,
+			);
+			path = ProjectL;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (B10000000000000000000001 /* ProjectL.swift */);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000A /* RootTabView.swift */,
+				B10000000000000000000024 /* AuthenticationView.swift */,
+				B1000000000000000000000B /* WelcomeView.swift */,
+                B30000000000000000000001 /* RallyBallMotion.metal */,
+				B1000000000000000000000C /* CourtView.swift */,
+				B1000000000000000000000D /* ClubFeedView.swift */,
+				B1000000000000000000000E /* FeedPostDetailView.swift */,
+				B1000000000000000000001C /* CreatePostView.swift */,
+				B1000000000000000000001E /* UserProfileView.swift */,
+				B1000000000000000000000F /* GameRequestView.swift */,
+				B1000000000000000000001F /* CreateGameRequestView.swift */,
+				B10000000000000000000010 /* ProfileView.swift */,
+				B10000000000000000000016 /* CourtDetailView.swift */,
+				B1000000000000000000002A /* SessionReminderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* Court.swift */,
+				B10000000000000000000004 /* GameRequest.swift */,
+				B10000000000000000000005 /* AppLanguage.swift */,
+				B10000000000000000000006 /* SampleData.swift */,
+				B10000000000000000000013 /* NearbyCourt.swift */,
+				B10000000000000000000014 /* CourtDiscoveryModel.swift */,
+				B10000000000000000000017 /* CommunityUser.swift */,
+				B10000000000000000000018 /* FeedPost.swift */,
+				B10000000000000000000019 /* PostComment.swift */,
+				B1000000000000000000001A /* ClubFeedStore.swift */,
+				B1000000000000000000001D /* GameRequestStore.swift */,
+				B10000000000000000000020 /* ProfileStore.swift */,
+				B10000000000000000000022 /* AppSession.swift */,
+				B10000000000000000000023 /* AppDataRepository.swift */,
+				B10000000000000000000025 /* SupabaseAppDataRepository.swift */,
+				B10000000000000000000029 /* SessionReminderStore.swift */,
+                B80000000000000000000001 /* VersionGate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000006 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000007 /* AppPalette.swift */,
+				B10000000000000000000008 /* WarmCard.swift */,
+				B10000000000000000000009 /* PageHeader.swift */,
+				B10000000000000000000015 /* CourtMapView.swift */,
+				B1000000000000000000001B /* FeedMediaView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (B10000000000000000000012 /* ProjectL.app */, EBCD36C16F3E52029DEAAFA8 /* ProjectLUITests.xctest */, DE3137337A8E5CFD8FE10FBC /* ProjectLTests.xctest */);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1000000000000000000002B /* InfoPlist.xcstrings */ = {
+			isa = PBXVariantGroup;
+			children = (
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7B81A748167501EA4AB5595 /* ProjectLTests */ = {
+			isa = PBXGroup;
+			children = (E351BBB9045F5B76BFF5670A /* CourtMapCameraTests.swift */, 4DBA1B38E59A540395E57697 /* GIFAnimationTests.swift */, ED892B0C448658FABC6676AB /* RepositoryChangeTests.swift */, 75ACAE33966852B187383FD4 /* SignedInStoresTests.swift */, 42C40A0EC9EB51B599EA2A44 /* MatchMomentPendingStorageTests.swift */);
+			path = ProjectLTests;
+			sourceTree = "<group>";
+		};
+		A755385D3B625E2C963CB9A3 /* ProjectLUITests */ = {
+			isa = PBXGroup;
+			children = (7A461C941FDA567EA97634FD /* CourtMapUITests.swift */, D82551D7C7E85AE9BD27B53B /* FeedGIFUITests.swift */, A7BCFFC0FC2452F08C83A677 /* DemoPostUITests.swift */);
+			path = ProjectLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXContainerItemProxy section */
+		E40903FA30BD5342A9906E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E10000000000000000000002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10000000000000000000001;
+			remoteInfo = ProjectL;
+		};
+		79F149F679995664A3D48D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E10000000000000000000002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10000000000000000000001;
+			remoteInfo = ProjectL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		06E1A262BF9658B2ABF513EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10000000000000000000001 /* ProjectL */;
+			targetProxy = E40903FA30BD5342A9906E39 /* PBXContainerItemProxy */;
+		};
+		D32AF88BEF2E5CB0A683D6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10000000000000000000001 /* ProjectL */;
+			targetProxy = 79F149F679995664A3D48D51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* ProjectL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000002 /* Build configuration list for PBXNativeTarget */;
+			buildPhases = (
+				C10000000000000000000002 /* Sources */,
+				C10000000000000000000001 /* Frameworks */,
+				C10000000000000000000003 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = ProjectL;
+			packageProductDependencies = (
+				E20000000000000000000002 /* Supabase */,
+				E20000000000000000000004 /* GRDB */,
+			);
+			productName = ProjectL;
+			productReference = B10000000000000000000012 /* ProjectL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCAAE83FD2395B3CBF709E8F /* ProjectLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B03D17A60F5E3EA4038C4E /* Build configuration list for ProjectLTests */;
+			buildPhases = (2E2771E4C4D15407A3BE5950 /* Sources */, 59B7C52B5C4E5C46861B02DF /* Frameworks */);
+			buildRules = ();
+			dependencies = (06E1A262BF9658B2ABF513EF /* PBXTargetDependency */);
+			name = ProjectLTests;
+			productName = ProjectLTests;
+			productReference = DE3137337A8E5CFD8FE10FBC /* ProjectLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		950AF89D92DE5562AF99B95D /* ProjectLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C7821F1D6F52BD895C8EC5 /* Build configuration list for ProjectLUITests */;
+			buildPhases = (DBD5C75AF13958988B1017F2 /* Sources */, D0F5481092425A8D9F582422 /* Frameworks */);
+			buildRules = ();
+			dependencies = (D32AF88BEF2E5CB0A683D6F4 /* PBXTargetDependency */);
+			name = ProjectLUITests;
+			productName = ProjectLUITests;
+			productReference = EBCD36C16F3E52029DEAAFA8 /* ProjectLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					950AF89D92DE5562AF99B95D = {TestTargetID = E10000000000000000000001; };
+					CCAAE83FD2395B3CBF709E8F = {TestTargetID = E10000000000000000000001; };
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+						SystemCapabilities = {
+							com.apple.SignInWithApple = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F10000000000000000000001 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (Base, en);
+			mainGroup = D10000000000000000000001;
+			packageReferences = (
+				E20000000000000000000001 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				E20000000000000000000003 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+			);
+			productRefGroup = D10000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E10000000000000000000001 /* ProjectL */, 950AF89D92DE5562AF99B95D /* ProjectLUITests */, CCAAE83FD2395B3CBF709E8F /* ProjectLTests */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000011 /* Assets.xcassets in Resources */,
+                A50000000000000000000001 /* PrivacyInfo.xcprivacy in Resources */,
+				A10000000000000000000020 /* LaunchScreen.storyboard in Resources */,
+				A10000000000000000000027 /* InfoPlist.xcstrings in Resources */,
+				A10000000000000000000028 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* ProjectL.swift in Sources */,
+				A10000000000000000000002 /* Court.swift in Sources */,
+				A10000000000000000000004 /* GameRequest.swift in Sources */,
+				A10000000000000000000005 /* AppLanguage.swift in Sources */,
+				A10000000000000000000006 /* SampleData.swift in Sources */,
+				A10000000000000000000007 /* AppPalette.swift in Sources */,
+				A10000000000000000000008 /* WarmCard.swift in Sources */,
+				A10000000000000000000009 /* PageHeader.swift in Sources */,
+				A1000000000000000000000A /* RootTabView.swift in Sources */,
+                A80000000000000000000001 /* VersionGate.swift in Sources */,
+				A1000000000000000000000B /* WelcomeView.swift in Sources */,
+                A30000000000000000000001 /* RallyBallMotion.metal in Sources */,
+				A1000000000000000000000C /* CourtView.swift in Sources */,
+				A1000000000000000000000D /* ClubFeedView.swift in Sources */,
+				A1000000000000000000000E /* FeedPostDetailView.swift in Sources */,
+				A1000000000000000000000F /* GameRequestView.swift in Sources */,
+				A10000000000000000000010 /* ProfileView.swift in Sources */,
+				A10000000000000000000012 /* NearbyCourt.swift in Sources */,
+				A10000000000000000000013 /* CourtDiscoveryModel.swift in Sources */,
+				A10000000000000000000014 /* CourtMapView.swift in Sources */,
+				A10000000000000000000015 /* CourtDetailView.swift in Sources */,
+				A10000000000000000000016 /* CommunityUser.swift in Sources */,
+				A10000000000000000000017 /* FeedPost.swift in Sources */,
+				A10000000000000000000018 /* PostComment.swift in Sources */,
+				A10000000000000000000019 /* ClubFeedStore.swift in Sources */,
+				A1000000000000000000001A /* FeedMediaView.swift in Sources */,
+				A1000000000000000000001B /* CreatePostView.swift in Sources */,
+				A1000000000000000000001C /* GameRequestStore.swift in Sources */,
+				A1000000000000000000001D /* UserProfileView.swift in Sources */,
+				A1000000000000000000001E /* CreateGameRequestView.swift in Sources */,
+				A1000000000000000000001F /* ProfileStore.swift in Sources */,
+				A10000000000000000000021 /* AppSession.swift in Sources */,
+				A10000000000000000000022 /* AppDataRepository.swift in Sources */,
+				A10000000000000000000023 /* AuthenticationView.swift in Sources */,
+				A10000000000000000000024 /* SupabaseAppDataRepository.swift in Sources */,
+				A10000000000000000000025 /* SessionReminderStore.swift in Sources */,
+				A10000000000000000000026 /* SessionReminderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2771E4C4D15407A3BE5950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (DE9F9A408DA3543B831D7A5A /* CourtMapCameraTests.swift in Sources */, FE8CD6B994EA5C7F9F74148C /* GIFAnimationTests.swift in Sources */, 017AD1C031585CE4BD3FD078 /* RepositoryChangeTests.swift in Sources */, 904CD1D70FE05EC7A09AD913 /* SignedInStoresTests.swift in Sources */, C3412CF7C73B5A289194E213 /* MatchMomentPendingStorageTests.swift in Sources */);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD5C75AF13958988B1017F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (B6286DBEE5D4527CA055C721 /* CourtMapUITests.swift in Sources */, 117E786E3916512A86292FA2 /* FeedGIFUITests.swift in Sources */, E44960C8C0BE54449407DFED /* DemoPostUITests.swift in Sources */);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F10000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10000000000000000000027 /* ProjectL.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = RallyClubIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = RallyAccent;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ProjectL/ProjectL.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ProjectL/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rally Club";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Rally Club uses your location to show courts nearby.";
+				INFOPLIST_KEY_SUPABASE_ANON_KEY = "$(SUPABASE_ANON_KEY)";
+				INFOPLIST_KEY_SUPABASE_URL = "$(SUPABASE_URL)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.projectl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10000000000000000000027 /* ProjectL.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = RallyClubIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = RallyAccent;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ProjectL/ProjectL.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ProjectL/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rally Club";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Rally Club uses your location to show courts nearby.";
+				INFOPLIST_KEY_SUPABASE_ANON_KEY = "$(SUPABASE_ANON_KEY)";
+				INFOPLIST_KEY_SUPABASE_URL = "$(SUPABASE_URL)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.projectl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F856E2AF92FB5329978441F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.projectl.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectL.app/ProjectL";
+			};
+			name = Debug;
+		};
+		B9FD92C7674B5572A6F1511F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.projectl.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectL.app/ProjectL";
+			};
+			name = Release;
+		};
+		550DDA445E9D5F99A73C9D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.projectl.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProjectL;
+			};
+			name = Debug;
+		};
+		F611FBA2A43C53FC9D760B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.projectl.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProjectL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (F10000000000000000000003 /* Debug */, F10000000000000000000004 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000002 /* Build configuration list for PBXNativeTarget */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (F10000000000000000000005 /* Debug */, F10000000000000000000006 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B03D17A60F5E3EA4038C4E /* Build configuration list for ProjectLTests */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (F856E2AF92FB5329978441F6 /* Debug */, B9FD92C7674B5572A6F1511F /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C7821F1D6F52BD895C8EC5 /* Build configuration list for ProjectLUITests */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (550DDA445E9D5F99A73C9D73 /* Debug */, F611FBA2A43C53FC9D760B90 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E20000000000000000000001 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.46.0;
+			};
+		};
+		E20000000000000000000003 /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E20000000000000000000002 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E20000000000000000000001 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		E20000000000000000000004 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E20000000000000000000003 /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E10000000000000000000002 /* Project object */;
+}

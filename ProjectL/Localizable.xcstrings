@@ -1,0 +1,1045 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "… Read full announcement" : {
+
+    },
+    "“%@”" : {
+
+    },
+    "%@ · %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "%lld / %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld"
+          }
+        }
+      }
+    },
+    "%lld likes" : {
+
+    },
+    "%lld players joined" : {
+
+    },
+    "%lld/%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld"
+          }
+        }
+      }
+    },
+    "%lld/80 · %lld/240" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/80 · %2$lld/240"
+          }
+        }
+      }
+    },
+    "1 like" : {
+
+    },
+    "1 player joined" : {
+
+    },
+    "A configured club uses your email and account identifier for sign-in, and stores the profile and community activity you share. Your email stays out of public profiles." : {
+
+    },
+    "Court schedule" : {
+
+    },
+    "Your club activity and match photos." : {
+
+    },
+    "A space for players to share drills and practice plans is coming soon." : {
+
+    },
+    "Account action" : {
+
+    },
+    "Account deletion is incomplete. Run deletion again to finish cleanup; community access is disabled meanwhile." : {
+
+    },
+    "Account deletion is not available yet" : {
+
+    },
+    "Account settings" : {
+
+    },
+    "Account settings lets you request permanent deletion of your account, related content, and media. If processing fails, verify again and retry; deletion may be partially complete until it succeeds. Device backups and provider security records retained under their policies may not disappear immediately. For access, correction, privacy rights, or questions, contact the developer." : {
+
+    },
+    "Add images or a GIF" : {
+
+    },
+    "Add photos" : {
+
+    },
+    "Add session reminder" : {
+
+    },
+    "Address" : {
+
+    },
+    "Administrator announcement" : {
+
+    },
+    "Allow notifications in Settings to receive session reminders." : {
+
+    },
+    "Allow notifications to receive a reminder at the time you choose." : {
+
+    },
+    "Allow reminders" : {
+
+    },
+    "An anonymous request hides your profile from other players. You can still manage it." : {
+
+    },
+    "Announcement content" : {
+
+    },
+    "Announcement not saved" : {
+
+    },
+    "Anonymous identity" : {
+
+    },
+    "Anonymous player" : {
+
+    },
+    "Anonymous player A" : {
+
+    },
+    "Anonymous player B" : {
+
+    },
+    "Apple Maps did not return a matching nearby court. Please try again later." : {
+
+    },
+    "Arrange" : {
+
+    },
+    "At least 6 characters" : {
+
+    },
+    "Avatar updated" : {
+
+    },
+    "Avatar upload failed" : {
+
+    },
+    "Back" : {
+
+    },
+    "Back to sign in" : {
+
+    },
+    "Bayridge · Demo map" : {
+
+    },
+    "Be the first to share an update or start a game request." : {
+
+    },
+    "Courts near you" : {
+
+    },
+    "Block" : {
+
+    },
+    "Block user" : {
+
+    },
+    "Blocked users" : {
+
+    },
+    "Blocking hides each other's posts, comments, and game requests." : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Change avatar" : {
+
+    },
+    "Check with the venue" : {
+
+    },
+    "Check your network connection and try again." : {
+
+    },
+    "Check your password and connection, then retry. Contact the developer if it still fails; never send anyone your password." : {
+
+    },
+    "Checking your session…" : {
+
+    },
+    "Choose a valid image. Avatars are converted to JPEG and must be 5 MB or smaller." : {
+
+    },
+    "Choose up to 4 items and 1 GIF. Each file can be up to 8 MB." : {
+
+    },
+    "Close photo" : {
+
+    },
+    "Club feed" : {
+
+    },
+    "Club member" : {
+
+    },
+    "Coming up: %@" : {
+
+    },
+    "Comments" : {
+
+    },
+    "Community rules" : {
+
+    },
+    "Community rules, blocks, and privacy policy" : {
+
+    },
+    "Confirm your email first" : {
+
+    },
+    "Confirmation link expired" : {
+
+    },
+    "Contact administrator / appeal" : {
+
+    },
+    "Contact the developer" : {
+
+    },
+    "Content safety options" : {
+
+    },
+    "Continue" : {
+
+    },
+    "Continue in demo mode" : {
+
+    },
+    "Could not complete. Check your connection and try again." : {
+
+    },
+    "Could not complete. Please retry." : {
+
+    },
+    "Couldn't load comments" : {
+
+    },
+    "Couldn't load records" : {
+
+    },
+    "Couldn't load. Tap to retry" : {
+
+    },
+    "Court details" : {
+
+    },
+    "Court finder" : {
+
+    },
+    "Court name" : {
+
+    },
+    "Courts" : {
+
+    },
+    "Create account" : {
+
+    },
+    "Create and sign in" : {
+
+    },
+    "Create post" : {
+
+    },
+    "Creating your profile…" : {
+
+    },
+    "Current avatar" : {
+
+    },
+    "Current location" : {
+
+    },
+    "Current password" : {
+
+    },
+    "Day of the week" : {
+
+    },
+    "Default avatar restored" : {
+
+    },
+    "Delete account" : {
+
+    },
+    "Delete account permanently?" : {
+
+    },
+    "Delete permanently" : {
+
+    },
+    "Delete photo" : {
+
+    },
+    "Delete reminder" : {
+
+    },
+    "Delete this reminder?" : {
+
+    },
+    "Deletion not complete" : {
+
+    },
+    "Deletion permanently removes your account, profile, posts, comments, likes, game requests, games joined, and photos. Verify again, and retry if interrupted to finish cleanup." : {
+
+    },
+    "Demo activity stays in memory until you leave the session. Weekly reminders are saved on this device. The demo uses fictional court locations and member profiles." : {
+
+    },
+    "Demo courts" : {
+
+    },
+    "Demo mode" : {
+
+    },
+    "Directions" : {
+
+    },
+    "Disable reminder" : {
+
+    },
+    "Discover nearby courts for your next practice or pickup game." : {
+
+    },
+    "Display identity" : {
+
+    },
+    "Display name" : {
+
+    },
+    "Done" : {
+
+    },
+    "Each image or GIF must be 8 MB or smaller. Choose a smaller file." : {
+
+    },
+    "Each post can include up to 1 GIF." : {
+
+    },
+    "Edit" : {
+
+    },
+    "Edit announcement" : {
+
+    },
+    "Edit avatar" : {
+
+    },
+    "Edit profile" : {
+
+    },
+    "Edit reminder" : {
+
+    },
+    "Edit session reminder" : {
+
+    },
+    "Email" : {
+
+    },
+    "Email sign-in is unavailable right now. Please try again later." : {
+
+    },
+    "Enable reminder" : {
+
+    },
+    "Enable system reminders" : {
+
+    },
+    "Enter a court name" : {
+
+    },
+    "Enter a court or session name for this reminder." : {
+
+    },
+    "Enter a valid email address." : {
+
+    },
+    "Exit demo mode" : {
+
+    },
+    "Explore a fictional club. Posts and game requests stay in this demo session, and reminders stay on this device." : {
+
+    },
+    "Feed" : {
+
+    },
+    "File too large" : {
+
+    },
+    "Find a court for your next game." : {
+
+    },
+    "Find a court, share a highlight in the club feed, or post a request to get a game going." : {
+
+    },
+    "Find nearby courts" : {
+
+    },
+    "Find people to play with." : {
+
+    },
+    "Friday" : {
+
+    },
+    "Game request" : {
+
+    },
+    "Game requests" : {
+
+    },
+    "Game requests you joined" : {
+
+    },
+    "Getting your location…" : {
+
+    },
+    "GIF" : {
+
+    },
+    "Harassment or hate" : {
+
+    },
+    "Harmful or inappropriate" : {
+
+    },
+    "Hidden" : {
+
+    },
+    "If you have ideas, suggestions, or a community concern, please be sure to get in touch." : {
+
+    },
+    "In a configured club, nearby court search uses Apple Maps after you grant location access. You choose which photos to share, and session reminders stay on your device." : {
+
+    },
+    "In a configured club, signed-in members can see public posts and match moments. Private match moments are visible to their owner. Media links expire. Reports are available to their submitter and authorized administrators." : {
+
+    },
+    "Join game" : {
+
+    },
+    "Joined" : {
+
+    },
+    "Just now" : {
+
+    },
+    "Add photos from your matches and practice sessions." : {
+
+    },
+    "Match moment visibility" : {
+
+    },
+    "Like" : {
+
+    },
+    "Liked" : {
+
+    },
+    "Load more" : {
+
+    },
+    "Load more posts to see earlier updates." : {
+
+    },
+    "Loading" : {
+
+    },
+    "Location access helps Rally Club find courts nearby." : {
+
+    },
+    "Location is restricted on this device. Posts and game requests are still available." : {
+
+    },
+    "Location is unavailable. Please try again." : {
+
+    },
+    "Location is unavailable. You can still view this page." : {
+
+    },
+    "Location not enabled" : {
+
+    },
+    "Location status unavailable" : {
+
+    },
+    "Looking for nearby courts…" : {
+
+    },
+    "Mail is unavailable" : {
+
+    },
+    "Manage your account" : {
+
+    },
+    "Match moments" : {
+
+    },
+    "Me" : {
+
+    },
+    "Media post" : {
+
+    },
+    "Media upload failed" : {
+
+    },
+    "Media uploaded and posted" : {
+
+    },
+    "Monday" : {
+
+    },
+    "Move earlier" : {
+
+    },
+    "Move later" : {
+
+    },
+    "My game requests" : {
+
+    },
+    "My posts" : {
+
+    },
+    "Joined games" : {
+
+    },
+    "name@example.com" : {
+
+    },
+    "Navigate with Apple Maps" : {
+
+    },
+    "Nearby courts" : {
+
+    },
+    "Nearby courts will appear once location is available." : {
+
+    },
+    "New game request" : {
+
+    },
+    "New post" : {
+
+    },
+    "New session reminder" : {
+
+    },
+    "No blocked users." : {
+
+    },
+    "No comments yet. Start the conversation." : {
+
+    },
+    "No data" : {
+
+    },
+    "No game requests yet" : {
+
+    },
+    "No joined games yet" : {
+
+    },
+    "No matches in loaded posts" : {
+
+    },
+    "No posts yet" : {
+
+    },
+    "No results right now" : {
+
+    },
+    "No session reminders yet. Add one for your regular court time." : {
+
+    },
+    "Not now" : {
+
+    },
+    "Not provided by Maps" : {
+
+    },
+    "Notifications are not allowed. Enable them in Settings and try again." : {
+
+    },
+    "OK" : {
+
+    },
+    "Only standard images and GIFs are supported. Choose another file." : {
+
+    },
+    "Open location settings" : {
+
+    },
+    "Open photo" : {
+
+    },
+    "Open Settings" : {
+
+    },
+    "Or use Apple" : {
+
+    },
+    "Other concern" : {
+
+    },
+    "Password" : {
+
+    },
+    "Please set up a mail app on this device first." : {
+
+    },
+    "Please update the app to continue." : {
+
+    },
+    "Please update to the latest version." : {
+
+    },
+    "Post anonymously" : {
+
+    },
+    "Post details" : {
+
+    },
+    "Post not found" : {
+
+    },
+    "Post publicly" : {
+
+    },
+    "Post with your profile or use the default avatar to stay anonymous." : {
+
+    },
+    "Posting identity" : {
+
+    },
+    "Posts" : {
+
+    },
+    "Posts you shared" : {
+
+    },
+    "Privacy policy" : {
+
+    },
+    "Profile" : {
+
+    },
+    "Profile avatar" : {
+
+    },
+    "Profile update failed" : {
+
+    },
+    "Profile updated" : {
+
+    },
+    "Public" : {
+
+    },
+    "Public identity" : {
+
+    },
+    "Publish" : {
+
+    },
+    "Rally Club" : {
+
+    },
+    "Rally Club · V1" : {
+
+    },
+    "Done. For help, open Safety & privacy in Me." : {
+
+    },
+    "Reminder could not be updated" : {
+
+    },
+    "Reminder status unavailable" : {
+
+    },
+    "Reminder time" : {
+
+    },
+    "Reminders are disabled" : {
+
+    },
+    "Reminders are enabled" : {
+
+    },
+    "Reminders stay on this device and use system notifications at the selected weekly time." : {
+
+    },
+    "Remove avatar" : {
+
+    },
+    "Remove media" : {
+
+    },
+    "Removing avatar…" : {
+
+    },
+    "Reorder match moments" : {
+
+    },
+    "Report content" : {
+
+    },
+    "Reporting an anonymous game request does not reveal its author to other users." : {
+
+    },
+    "Request title" : {
+
+    },
+    "Requests you posted" : {
+
+    },
+    "Resend confirmation email" : {
+
+    },
+    "Respect one another. Harassment, hate, threats, sexual, fraudulent, and illegal content are prohibited. Basic harmful-text filtering is applied; report images or other concerns from the content menu for administrator review. Removed content is hidden. Contact local emergency services for immediate danger." : {
+
+    },
+    "Joined" : {
+
+    },
+    "Result" : {
+
+    },
+    "Retry" : {
+
+    },
+    "Safety & privacy" : {
+
+    },
+    "Saturday" : {
+
+    },
+    "Save" : {
+
+    },
+    "Search again" : {
+
+    },
+    "Send comment" : {
+
+    },
+    "Session reminder" : {
+
+    },
+    "Session reminders" : {
+
+    },
+    "Session time" : {
+
+    },
+    "Set a weekly reminder for your regular court time." : {
+
+    },
+    "Set a weekly session reminder" : {
+
+    },
+    "Set session reminder" : {
+
+    },
+    "Set up a mail app on your device, then try this contact option again. Content reports remain available in the report menu." : {
+
+    },
+    "Share a match highlight, a training tip, or a question for the club…" : {
+
+    },
+    "Share match highlights and find your next game." : {
+
+    },
+    "Sharing" : {
+
+    },
+    "Shows avatar and nickname" : {
+
+    },
+    "Sign in" : {
+
+    },
+    "Sign in with email" : {
+
+    },
+    "Sign out" : {
+
+    },
+    "Sign-in service is not configured" : {
+
+    },
+    "Player bio" : {
+
+    },
+    "Signing in…" : {
+
+    },
+    "Spam or scam" : {
+
+    },
+    "Start here" : {
+
+    },
+    "Submission failed" : {
+
+    },
+    "Submitted" : {
+
+    },
+    "Submitting…" : {
+
+    },
+    "Sunday" : {
+
+    },
+    "Supabase is not configured in this build. Ask the developer to finish backend setup." : {
+
+    },
+    "Surface" : {
+
+    },
+    "Talk about your games, drills, and favorite courts." : {
+
+    },
+    "Tell players where and when you want to play, plus the skill level or format." : {
+
+    },
+    "The announcement changed elsewhere. Your text is retained. Go back and reload the announcement before editing again." : {
+
+    },
+    "The Apple sign-in credential could not be used. Please try again." : {
+
+    },
+    "The confirmation email was sent again. Check your inbox, then return to sign in." : {
+
+    },
+    "The current deletion flow requires Apple reauthentication. This account is not linked to Apple, so it cannot be deleted in the app yet." : {
+
+    },
+    "The data could not be loaded. Please try again." : {
+
+    },
+    "The demo uses a fictional member. Posts and game requests reset when you exit." : {
+
+    },
+    "The email or password is incorrect. Check it and try again." : {
+
+    },
+    "The network is unavailable, so this change may not have been saved." : {
+
+    },
+    "The rest of the app remains available. You can enable location later in Settings." : {
+
+    },
+    "The system reminder status is unavailable right now." : {
+
+    },
+    "There have been too many attempts. Please try again later." : {
+
+    },
+    "This account cannot edit announcements. Your text is retained." : {
+
+    },
+    "This change could not be saved. Please try again." : {
+
+    },
+    "This confirmation link has expired or was already used. Resend the email and try again." : {
+
+    },
+    "This creates a repeating weekly reminder on this device. You can disable or delete it later." : {
+
+    },
+    "This email is already registered. Sign in or use another address." : {
+
+    },
+    "This password is too weak. Choose a stronger password." : {
+
+    },
+    "This reminder could not be saved. Please try again later." : {
+
+    },
+    "This updates the weekly reminder on this device. You can disable or delete it later." : {
+
+    },
+    "Thursday" : {
+
+    },
+    "Too many GIFs" : {
+
+    },
+    "Training lounge" : {
+
+    },
+    "Try location again" : {
+
+    },
+    "Tuesday" : {
+
+    },
+    "Unable to load" : {
+
+    },
+    "Unable to remove avatar" : {
+
+    },
+    "Unable to save right now. Your text is retained; please try again." : {
+
+    },
+    "Unable to sign in" : {
+
+    },
+    "Unable to use this image" : {
+
+    },
+    "Unblock" : {
+
+    },
+    "Under construction" : {
+
+    },
+    "Unsupported format" : {
+
+    },
+    "Update" : {
+
+    },
+    "Update available" : {
+
+    },
+    "Update required" : {
+
+    },
+    "Updating profile…" : {
+
+    },
+    "Uploading avatar…" : {
+
+    },
+    "Uploading media…" : {
+
+    },
+    "User" : {
+
+    },
+    "User avatar" : {
+
+    },
+    "Verify again to permanently delete the account and its related data." : {
+
+    },
+    "View %@'s profile" : {
+
+    },
+    "View comments" : {
+
+    },
+    "View details" : {
+
+    },
+    "View or change avatar" : {
+
+    },
+    "View post details" : {
+
+    },
+    "View profile" : {
+
+    },
+    "Waiting for location" : {
+
+    },
+    "Wednesday" : {
+
+    },
+    "Weekly reminders will arrive at the time you choose." : {
+
+    },
+    "Welcome to Rally Club" : {
+
+    },
+    "With your permission, location is used to find nearby courts." : {
+
+    },
+    "Write a comment…" : {
+
+    },
+    "Write a request title" : {
+
+    },
+    "You can be the first to share here." : {
+
+    },
+    "You can create the reminder again later. Other accounts are not affected." : {
+
+    },
+    "You do not have permission to load this data. Sign in again and retry." : {
+
+    },
+    "You do not have permission to make this change." : {
+
+    },
+    "You have not shared any posts yet." : {
+
+    },
+    "Your account was created. Confirm your email, then return to sign in." : {
+
+    },
+    "Your Apple email is never shown publicly." : {
+
+    },
+    "Your password must be at least 6 characters." : {
+
+    },
+    "Your profile could not be prepared after sign-in. Please try again later." : {
+
+    },
+    "Player profile" : {
+
+    },
+    "Your player profile stays hidden" : {
+
+    },
+    "Your reminders" : {
+
+    }
+  },
+  "version" : "1.0"
+}

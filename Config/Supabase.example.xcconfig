@@ -1,0 +1,4 @@
+// Copy to Supabase.xcconfig and fill in values for a separate Rally Club backend.
+// Escape the slashes in the URL as https:/$()/ before the host.
+SUPABASE_URL =
+SUPABASE_ANON_KEY =
